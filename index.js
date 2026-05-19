@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Azure Node.js App Running Successfully');
+    res.send('Hello world');
 });
 
 app.listen(PORT, () => {
